@@ -50,3 +50,33 @@ button i {
 }
 
 
+/*Call to action*/
+.heading{
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  margin: auto;
+
+}
+
+.heading h1{
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+
+.heading p {
+  font-weight: 500;
+  color: #000000;
+  margin-top: 7px;
+}
+
+
+textarea, input {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+
+
