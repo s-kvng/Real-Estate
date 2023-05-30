@@ -59,16 +59,19 @@ form .box:nth-child(1){
 
 @media screen and (max-width: 768px){
     .hero .container{
-        padding-top: 10%;
+        padding-top: 8%;
     }
 
     .hero h1 {
         font-size: 60px;
+        line-height: 4rem;
     }
+
 
     form {
         display:flex;
         flex-wrap: wrap;
+        z-index: 9999 !important;
     }
 
     form .box{
