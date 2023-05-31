@@ -54,7 +54,7 @@ button i {
 .heading{
   text-align: center;
   color: #fff;
-  width: 60%;
+  width: 90%;
   margin: auto;
 
 }
@@ -63,7 +63,6 @@ button i {
   font-weight: 600;
   text-transform: capitalize;
   font-size: 60px;
-  
 }
 
 .heading p {
@@ -127,4 +126,12 @@ img{
 
 .btn2{
   border-radius: 50px;
+}
+
+
+.grid4{
+
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-gap: 30px;
 }

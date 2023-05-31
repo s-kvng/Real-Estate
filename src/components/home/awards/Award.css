@@ -1,0 +1,60 @@
+.awards {
+    background-color: #122947;
+    color : #fff;
+    text-align: center;
+}
+
+.awards .heading{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.awards .heading p{
+    color: #5a5d7c;
+}
+
+.awards .heading h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.awards .icon{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    line-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4% 50% ;
+    font-size: 50px;
+    color: #fff;
+}
+
+.awards h1{
+    font-size: 50px;
+}
+
+.awards p{
+    color: grey;
+}
+
+
+@media screen and (max-width : 425px){
+
+    .grid4{
+
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .grid4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
