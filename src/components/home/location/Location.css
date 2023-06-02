@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 350px;
+    height: 250px;
     width: 100%;
     color: #fff;
     z-index: 2222;
@@ -41,6 +41,14 @@
 .location h5{
     font-size: 18px;
     font-weight: 500;
+}
+
+.location .heading h1{
+    color: #000;
+}
+
+.location .heading p{
+    color: #72809d
 }
 
 .location label{
