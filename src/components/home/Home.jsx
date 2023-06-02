@@ -5,6 +5,7 @@ import Recent from './recent/Recent';
 import Award from './awards/Award';
 import Location from './location/Location';
 import Team from './team/Team';
+import Price from './pricing/Price';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Award />
         <Location/>
         <Team/>
+        <Price />
     </>
   )
 }
