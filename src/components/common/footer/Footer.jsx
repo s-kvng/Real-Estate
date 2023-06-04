@@ -49,8 +49,9 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className="legal">
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+      <div className="legal flex">
+        <div>© 2021 RentUp. Designed by Nathaniel E. Adama & Powered by React</div> 
+        <img src="./images/White-NEA.png" alt="" />
       </div>
     </>
   );
