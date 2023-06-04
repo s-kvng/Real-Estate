@@ -9,6 +9,15 @@
 
 }
 
+
+.hero .heading h1{
+    color: white;
+}
+
+.hero .heading p{
+    color: white;
+}
+
 .hero .container {
     padding-top: 12%;
 
