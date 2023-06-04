@@ -26,15 +26,13 @@
     line-height: 30px;
 }
 
-@media screen and (max-width: 800px){
+
+
+@media screen and (max-width: 768px){
 
     .about .flex{
         flex-direction: column;
         
-    }
-
-    .about button{
-        margin-bottom: 50px;
     }
 
     .heading h1{
@@ -43,5 +41,9 @@
 
     .heading p{
         line-height: 20px;
+    }
+
+    .about .container img{
+        margin-top: 50px;
     }
 }
