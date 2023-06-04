@@ -5,6 +5,7 @@ import  Home   from '../home/Home';
 import Footer from '../common/footer/Footer';
 import About from '../About/About';
 import Services from '../Services/Services';
+import Blog from '../blog/Blog';
 
 const Pages = () => {
   return (
@@ -14,7 +15,10 @@ const Pages = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/services' element={<Services />} />        </Routes>
+          <Route path='/services' element={<Services />} />
+          <Route path='/blog' element={<Blog />} />
+
+          </Routes>
         <Footer />
       </Router>
     </>
