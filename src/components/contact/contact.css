@@ -1,0 +1,50 @@
+.contact form div{
+    display: flex;
+}
+
+.contact .container{
+    margin-bottom: 50px;
+}
+
+.contact textarea{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom : 30px;
+
+}
+
+.contact textarea, .contact input{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 10px;
+} 
+
+.contact form{
+    padding: 30px;
+    width: 100%;
+}
+
+.contact h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 768px){
+    .contact h4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact form div{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact textarea, .contact input{
+        margin-bottom: 20px;
+        width: 90%; 
+        margin-right: 10px;
+    } 
+}
