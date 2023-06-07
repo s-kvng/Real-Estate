@@ -50,7 +50,7 @@ const Footer = () => {
       </footer>
 
       <div className="legal flex">
-        <div>© 2021 RentUp. Designed by Nathaniel E. Adama & Powered by React</div> 
+        <div>© 2023 RentUp. Designed by Nathaniel E. Adama & Powered by React</div> 
         <img src="./images/White-NEA.png" alt="" />
       </div>
     </>

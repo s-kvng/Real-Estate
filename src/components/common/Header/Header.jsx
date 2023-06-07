@@ -13,7 +13,7 @@ export const Header = () => {
             <header>
                 <div className='container flex'>
                     <div className="logo">
-                        <img src="./images/logo192.png" alt="logo" />
+                        <img src="./images/NEAblack.png" alt="logo" />
                     </div>
                     <div className="nav">
                         <ul className={navList ? "small" : "flex"}>
